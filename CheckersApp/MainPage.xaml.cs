@@ -26,6 +26,9 @@ namespace CheckersApp
         private Rect selectedSpace;
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private SettingsPage settingsPage;
+        private HelpPage helpPage;
+        private About aboutPage;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -110,27 +113,36 @@ namespace CheckersApp
 
         private void NewGameButton_Click(object sender, RoutedEventArgs e)
         {
-
+            //create new game
         }
 
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {
-
+            if(settingsPage == null)
+            {
+                settingsPage = new SettingsPage();
+            }
         }
 
         private void OptionsButton_Click(object sender, RoutedEventArgs e)
         {
-
+            //Leave blank unless needed
         }
 
         private void HelpButton_Click(object sender, RoutedEventArgs e)
         {
-
+            if(helpPage == null)
+            {
+                helpPage = new HelpPage();
+            }
         }
 
         private void AboutButton_Click(object sender, RoutedEventArgs e)
         {
-
+            if(aboutPage == null)
+            {
+                aboutPage = new About();
+            }
         }
     }
 }

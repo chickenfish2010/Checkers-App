@@ -1,6 +1,6 @@
 ﻿<Page
     x:Name="pageRoot"
-    x:Class="CheckersApp.BasicPage1"
+    x:Class="CheckersApp.SettingsPage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -43,9 +43,17 @@
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
                         AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+            <TextBlock x:Name="pageTitle" Text="Settings" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
+        <Grid HorizontalAlignment="Left" Height="388" Margin="206,135,0,0" Grid.Row="1" VerticalAlignment="Top" Width="886">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="23,10,375,103" Width="488" Height="296">
+                <RadioButton x:ConnectionId='1' x:Name="pvp" Content="Player Vs. Player" GroupName="Group1"                               IsChecked="True" Margin="0,20,0,30" FontSize="25" IsDoubleTapEnabled="False" />
+                <RadioButton x:ConnectionId='2' x:Name="pvc" Content="Player Vs. AI" GroupName="Group1"                               Margin="0,20,0,30" FontSize="25"/>
+                <RadioButton x:ConnectionId='3' x:Name="net" Content="Network" GroupName="Group1"                               Margin="0,20,0,30" FontSize="25"/>
+            </StackPanel>
+        </Grid>
     </Grid>
+
 </Page>
 

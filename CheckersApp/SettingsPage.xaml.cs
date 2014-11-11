@@ -21,7 +21,7 @@ namespace CheckersApp
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class BasicPage1 : Page
+    public sealed partial class SettingsPage : Page
     {
 
         private NavigationHelper navigationHelper;
@@ -45,7 +45,7 @@ namespace CheckersApp
         }
 
 
-        public BasicPage1()
+        public SettingsPage()
         {
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
@@ -102,5 +102,10 @@ namespace CheckersApp
         }
 
         #endregion
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
