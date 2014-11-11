@@ -76,4 +76,13 @@
             <Rectangle x:Name="Space29" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,490,420,0"/>
         </Grid>
     </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton HorizontalAlignment="Left" Content="New Game"/>
+            <AppBarButton HorizontalAlignment="Left" Content="Settings" />
+            <AppBarButton HorizontalAlignment="Left" Content="Options"/>
+            <AppBarButton HorizontalAlignment="Left" Content="Help"/>
+            <AppBarButton HorizontalAlignment="Left" Content="About" />
+        </CommandBar>
+    </Page.BottomAppBar>
 </Page>

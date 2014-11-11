@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SI-20103</Machine>
+    <WindowsUser>acancie1</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>86933ddf-c4a9-4007-a85a-5753bf3c2605</PackageIdentityName>
+    <RegisteredManifestChecksum>65A500FFA4349E32D53A40CBB679C4539C36322CFAB72E3B86B4330E244DAFDF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>86933ddf-c4a9-4007-a85a-5753bf3c2605_1.0.0.0_neutral__vyktgxkr3bj84</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>86933ddf-c4a9-4007-a85a-5753bf3c2605_vyktgxkr3bj84!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>86933ddf-c4a9-4007-a85a-5753bf3c2605</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=cpetty1</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-11T21:44:53.410</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\bin\Debug\CheckersApp.exe">
+      <PackagePath>CheckersApp.exe</PackagePath>
+      <Modified>2014-11-11T21:44:52.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-11T21:33:53.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-11T21:33:53.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-11T21:33:53.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-11T21:33:53.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2014-11-11T21:33:53.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-11T21:44:25.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-11T21:44:25.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-11T21:44:53.145</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

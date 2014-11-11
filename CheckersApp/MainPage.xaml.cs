@@ -102,5 +102,10 @@ namespace CheckersApp
         }
 
         #endregion
+
+        private void CheckersGrid_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+
+        }
     }
 }
