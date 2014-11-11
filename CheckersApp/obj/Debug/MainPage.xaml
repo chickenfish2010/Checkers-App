@@ -41,7 +41,7 @@
             <TextBlock x:Name="pageTitle" Text="Checkers" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
-        <Grid x:ConnectionId='1' x:Name="CheckersGrid" HorizontalAlignment="Center" Height="560" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="560" Background="White"                             >
+        <Grid x:ConnectionId='0' x:Name="CheckersGrid" HorizontalAlignment="Center" Height="560" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="560" Background="White"                             >
             <Rectangle x:Name="Space1" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,0,490,490"/>
             <Rectangle x:Name="Space5" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,70,420,420"/>
             <Rectangle x:Name="Space10" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,140,350,350"/>
@@ -78,11 +78,11 @@
     </Grid>
     <Page.BottomAppBar>
         <CommandBar>
-            <AppBarButton HorizontalAlignment="Left" Content="New Game"/>
-            <AppBarButton HorizontalAlignment="Left" Content="Settings" />
-            <AppBarButton HorizontalAlignment="Left" Content="Options"/>
-            <AppBarButton HorizontalAlignment="Left" Content="Help"/>
-            <AppBarButton HorizontalAlignment="Left" Content="About" />
+            <AppBarButton x:ConnectionId='0' x:Name="NewGameButton" HorizontalAlignment="Left" Content="New Game"                            />
+            <AppBarButton x:ConnectionId='0' x:Name="SettingsButton" HorizontalAlignment="Left" Content="Settings"                              />
+            <AppBarButton x:ConnectionId='0' x:Name="OptionsButton" HorizontalAlignment="Left" Content="Options"                            />
+            <AppBarButton x:ConnectionId='0' x:Name="HelpButton" HorizontalAlignment="Left" Content="Help"                         />
+            <AppBarButton x:ConnectionId='0' x:Name="AboutButton" HorizontalAlignment="Left" Content="About"                           />
         </CommandBar>
     </Page.BottomAppBar>
 </Page>

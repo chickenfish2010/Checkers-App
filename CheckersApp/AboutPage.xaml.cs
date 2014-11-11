@@ -21,9 +21,9 @@ namespace CheckersApp
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class About : Page
     {
-        private Rect selectedSpace;
+
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
@@ -45,7 +45,7 @@ namespace CheckersApp
         }
 
 
-        public MainPage()
+        public About()
         {
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
@@ -102,35 +102,5 @@ namespace CheckersApp
         }
 
         #endregion
-
-        private void CheckersGrid_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-
-        private void NewGameButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void SettingsButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void OptionsButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void HelpButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void AboutButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

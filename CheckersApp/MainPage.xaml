@@ -78,11 +78,11 @@
     </Grid>
     <Page.BottomAppBar>
         <CommandBar>
-            <AppBarButton HorizontalAlignment="Left" Content="New Game"/>
-            <AppBarButton HorizontalAlignment="Left" Content="Settings" />
-            <AppBarButton HorizontalAlignment="Left" Content="Options"/>
-            <AppBarButton HorizontalAlignment="Left" Content="Help"/>
-            <AppBarButton HorizontalAlignment="Left" Content="About" />
+            <AppBarButton x:Name="NewGameButton" HorizontalAlignment="Left" Content="New Game" Click="NewGameButton_Click"/>
+            <AppBarButton x:Name="SettingsButton" HorizontalAlignment="Left" Content="Settings" Click="SettingsButton_Click" />
+            <AppBarButton x:Name="OptionsButton" HorizontalAlignment="Left" Content="Options" Click="OptionsButton_Click"/>
+            <AppBarButton x:Name="HelpButton" HorizontalAlignment="Left" Content="Help" Click="HelpButton_Click"/>
+            <AppBarButton x:Name="AboutButton" HorizontalAlignment="Left" Content="About" Click="AboutButton_Click" />
         </CommandBar>
     </Page.BottomAppBar>
 </Page>
