@@ -26,9 +26,9 @@ namespace CheckersApp
         private Rect selectedSpace;
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
-        private SettingsPage settingsPage;
-        private HelpPage helpPage;
-        private About aboutPage;
+        //private SettingsPage settingsPage;
+        //private HelpPage helpPage;
+        //private About aboutPage;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -52,6 +52,7 @@ namespace CheckersApp
         {
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
+            this.NavigationCacheMode = NavigationCacheMode.Enabled;
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
         }
@@ -118,10 +119,12 @@ namespace CheckersApp
 
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {
-            if(settingsPage == null)
-            {
-                settingsPage = new SettingsPage();
-            }
+            //if(settingsPage == null)
+            //{
+            //    settingsPage = new SettingsPage();
+            //}
+
+            this.Frame.Navigate(typeof(SettingsPage));
         }
 
         private void OptionsButton_Click(object sender, RoutedEventArgs e)
@@ -131,18 +134,22 @@ namespace CheckersApp
 
         private void HelpButton_Click(object sender, RoutedEventArgs e)
         {
-            if(helpPage == null)
-            {
-                helpPage = new HelpPage();
-            }
+            //if(helpPage == null)
+            //{
+            //    helpPage = new HelpPage();
+            //}
+
+            this.Frame.Navigate(typeof(HelpPage));
         }
 
         private void AboutButton_Click(object sender, RoutedEventArgs e)
         {
-            if(aboutPage == null)
-            {
-                aboutPage = new About();
-            }
+            //if(aboutPage == null)
+            //{
+            //    aboutPage = new About();
+            //}
+
+            this.Frame.Navigate(typeof(About));
         }
     }
 }

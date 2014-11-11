@@ -52,6 +52,7 @@
                 <RadioButton x:Name="pvc" Content="Player Vs. AI" GroupName="Group1" Checked="RadioButton_Checked" Margin="0,20,0,30" FontSize="25"/>
                 <RadioButton x:Name="net" Content="Network" GroupName="Group1" Checked="RadioButton_Checked" Margin="0,20,0,30" FontSize="25"/>
             </StackPanel>
+            <Button x:Name="StartGame" Content="Start Game" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="NewGameButton_Click"/>
         </Grid>
     </Grid>
 

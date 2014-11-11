@@ -124,8 +124,8 @@ namespace CheckersApp.CheckersApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
-            _typeNameTable[0] = "CheckersApp.MainPage";
+            _typeNameTable = new string[12];
+            _typeNameTable[0] = "CheckersApp.About";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "CheckersApp.Common.ObservableDictionary";
@@ -133,9 +133,13 @@ namespace CheckersApp.CheckersApp_XamlTypeInfo
             _typeNameTable[5] = "String";
             _typeNameTable[6] = "CheckersApp.Common.NavigationHelper";
             _typeNameTable[7] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[8] = "CheckersApp.HelpPage";
+            _typeNameTable[9] = "CheckersApp.OptionsPage";
+            _typeNameTable[10] = "CheckersApp.SettingsPage";
+            _typeNameTable[11] = "CheckersApp.MainPage";
 
-            _typeTable = new global::System.Type[8];
-            _typeTable[0] = typeof(global::CheckersApp.MainPage);
+            _typeTable = new global::System.Type[12];
+            _typeTable[0] = typeof(global::CheckersApp.About);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::CheckersApp.Common.ObservableDictionary);
@@ -143,6 +147,10 @@ namespace CheckersApp.CheckersApp_XamlTypeInfo
             _typeTable[5] = typeof(global::System.String);
             _typeTable[6] = typeof(global::CheckersApp.Common.NavigationHelper);
             _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[8] = typeof(global::CheckersApp.HelpPage);
+            _typeTable[9] = typeof(global::CheckersApp.OptionsPage);
+            _typeTable[10] = typeof(global::CheckersApp.SettingsPage);
+            _typeTable[11] = typeof(global::CheckersApp.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -177,8 +185,12 @@ namespace CheckersApp.CheckersApp_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::CheckersApp.MainPage(); }
+        private object Activate_0_About() { return new global::CheckersApp.About(); }
         private object Activate_3_ObservableDictionary() { return new global::CheckersApp.Common.ObservableDictionary(); }
+        private object Activate_8_HelpPage() { return new global::CheckersApp.HelpPage(); }
+        private object Activate_9_OptionsPage() { return new global::CheckersApp.OptionsPage(); }
+        private object Activate_10_SettingsPage() { return new global::CheckersApp.SettingsPage(); }
+        private object Activate_11_MainPage() { return new global::CheckersApp.MainPage(); }
         private void MapAdd_3_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -197,9 +209,9 @@ namespace CheckersApp.CheckersApp_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  CheckersApp.MainPage
+            case 0:   //  CheckersApp.About
                 userType = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_About;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
@@ -237,17 +249,89 @@ namespace CheckersApp.CheckersApp_XamlTypeInfo
             case 7:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
+
+            case 8:   //  CheckersApp.HelpPage
+                userType = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_HelpPage;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                xamlType = userType;
+                break;
+
+            case 9:   //  CheckersApp.OptionsPage
+                userType = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_OptionsPage;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                xamlType = userType;
+                break;
+
+            case 10:   //  CheckersApp.SettingsPage
+                userType = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_SettingsPage;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                xamlType = userType;
+                break;
+
+            case 11:   //  CheckersApp.MainPage
+                userType = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_MainPage;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                xamlType = userType;
+                break;
             }
             return xamlType;
         }
 
 
-        private object get_0_MainPage_DefaultViewModel(object instance)
+        private object get_0_About_DefaultViewModel(object instance)
+        {
+            var that = (global::CheckersApp.About)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_1_About_NavigationHelper(object instance)
+        {
+            var that = (global::CheckersApp.About)instance;
+            return that.NavigationHelper;
+        }
+        private object get_2_HelpPage_DefaultViewModel(object instance)
+        {
+            var that = (global::CheckersApp.HelpPage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_3_HelpPage_NavigationHelper(object instance)
+        {
+            var that = (global::CheckersApp.HelpPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_4_OptionsPage_DefaultViewModel(object instance)
+        {
+            var that = (global::CheckersApp.OptionsPage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_5_OptionsPage_NavigationHelper(object instance)
+        {
+            var that = (global::CheckersApp.OptionsPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_6_SettingsPage_DefaultViewModel(object instance)
+        {
+            var that = (global::CheckersApp.SettingsPage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_7_SettingsPage_NavigationHelper(object instance)
+        {
+            var that = (global::CheckersApp.SettingsPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_8_MainPage_DefaultViewModel(object instance)
         {
             var that = (global::CheckersApp.MainPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_1_MainPage_NavigationHelper(object instance)
+        private object get_9_MainPage_NavigationHelper(object instance)
         {
             var that = (global::CheckersApp.MainPage)instance;
             return that.NavigationHelper;
@@ -260,16 +344,64 @@ namespace CheckersApp.CheckersApp_XamlTypeInfo
 
             switch (longMemberName)
             {
+            case "CheckersApp.About.DefaultViewModel":
+                userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.About");
+                xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "CheckersApp.Common.ObservableDictionary");
+                xamlMember.Getter = get_0_About_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CheckersApp.About.NavigationHelper":
+                userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.About");
+                xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "NavigationHelper", "CheckersApp.Common.NavigationHelper");
+                xamlMember.Getter = get_1_About_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CheckersApp.HelpPage.DefaultViewModel":
+                userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.HelpPage");
+                xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "CheckersApp.Common.ObservableDictionary");
+                xamlMember.Getter = get_2_HelpPage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CheckersApp.HelpPage.NavigationHelper":
+                userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.HelpPage");
+                xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "NavigationHelper", "CheckersApp.Common.NavigationHelper");
+                xamlMember.Getter = get_3_HelpPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CheckersApp.OptionsPage.DefaultViewModel":
+                userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.OptionsPage");
+                xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "CheckersApp.Common.ObservableDictionary");
+                xamlMember.Getter = get_4_OptionsPage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CheckersApp.OptionsPage.NavigationHelper":
+                userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.OptionsPage");
+                xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "NavigationHelper", "CheckersApp.Common.NavigationHelper");
+                xamlMember.Getter = get_5_OptionsPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CheckersApp.SettingsPage.DefaultViewModel":
+                userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.SettingsPage");
+                xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "CheckersApp.Common.ObservableDictionary");
+                xamlMember.Getter = get_6_SettingsPage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CheckersApp.SettingsPage.NavigationHelper":
+                userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.SettingsPage");
+                xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "NavigationHelper", "CheckersApp.Common.NavigationHelper");
+                xamlMember.Getter = get_7_SettingsPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
             case "CheckersApp.MainPage.DefaultViewModel":
                 userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.MainPage");
                 xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "CheckersApp.Common.ObservableDictionary");
-                xamlMember.Getter = get_0_MainPage_DefaultViewModel;
+                xamlMember.Getter = get_8_MainPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "CheckersApp.MainPage.NavigationHelper":
                 userType = (global::CheckersApp.CheckersApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CheckersApp.MainPage");
                 xamlMember = new global::CheckersApp.CheckersApp_XamlTypeInfo.XamlMember(this, "NavigationHelper", "CheckersApp.Common.NavigationHelper");
-                xamlMember.Getter = get_1_MainPage_NavigationHelper;
+                xamlMember.Getter = get_9_MainPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

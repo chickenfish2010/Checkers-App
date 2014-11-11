@@ -107,5 +107,15 @@ namespace CheckersApp
         {
             
         }
+
+        private void StartGame_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NewGameButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
