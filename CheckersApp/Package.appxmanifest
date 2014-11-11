@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
 
-  <Identity Name="f7159095-b064-4285-9d71-1b3be1a824d3"
-            Publisher="CN=acancie1"
+  <Identity Name="86933ddf-c4a9-4007-a85a-5753bf3c2605"
+            Publisher="CN=cpetty1"
             Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>Checkers-App</DisplayName>
-    <PublisherDisplayName>acancie1</PublisherDisplayName>
+    <DisplayName>CheckersApp</DisplayName>
+    <PublisherDisplayName>cpetty1</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -23,12 +23,12 @@
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="Checkers_App.App">
+        EntryPoint="CheckersApp.App">
         <m2:VisualElements
-            DisplayName="Checkers-App"
+            DisplayName="CheckersApp"
             Square150x150Logo="Assets\Logo.png"
             Square30x30Logo="Assets\SmallLogo.png"
-            Description="Checkers-App"
+            Description="CheckersApp"
             ForegroundText="light"
             BackgroundColor="#464646">
             <m2:SplashScreen Image="Assets\SplashScreen.png" />

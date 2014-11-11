@@ -1,7 +1,8 @@
 ﻿<Application
-    x:Class="Checkers_App.App"
+    x:Class="CheckersApp.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Checkers_App">
+    xmlns:local="using:CheckersApp">
 
 </Application>
+
