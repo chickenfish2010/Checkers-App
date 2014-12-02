@@ -29,3 +29,34 @@ c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\o
 c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\obj\Debug\qualifiers.txt.intermediate
 c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\obj\Debug\ProjectArchitectures.txt
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\App.g.i.cs
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\App.g.cs
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\MainPage.g.i.cs
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\MainPage.g.cs
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\App.xaml
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\App.xbf
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\XamlSaveStateFile.xml
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\MainPage.xaml
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\MainPage.xbf
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\CheckersApp.exe
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\App.xbf
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\MainPage.xbf
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\CheckersApp.exe
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\CheckersApp.pdb
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\resources.pri
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\AppxManifest.xml
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\CheckersApp.build.appxrecipe
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\CheckersApp.pdb
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\priconfig.xml
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\priconfig.xml.intermediate
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\layout.resfiles
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\layout.resfiles.intermediate
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\resources.resfiles
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\resources.resfiles.intermediate
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\pri.resfiles
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\pri.resfiles.intermediate
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\qualifiers.txt
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\qualifiers.txt.intermediate
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\obj\Debug\ProjectArchitectures.txt

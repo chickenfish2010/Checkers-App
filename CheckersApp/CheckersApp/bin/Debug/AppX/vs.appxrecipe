@@ -1,60 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>SI-20102</Machine>
+    <Machine>SI-20109</Machine>
     <WindowsUser>cpetty1</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>86933ddf-c4a9-4007-a85a-5753bf3c2605</PackageIdentityName>
     <RegisteredManifestChecksum>65A500FFA4349E32D53A40CBB679C4539C36322CFAB72E3B86B4330E244DAFDF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>86933ddf-c4a9-4007-a85a-5753bf3c2605_1.0.0.0_neutral__vyktgxkr3bj84</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>86933ddf-c4a9-4007-a85a-5753bf3c2605_vyktgxkr3bj84!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>86933ddf-c4a9-4007-a85a-5753bf3c2605</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=cpetty1</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-11T22:22:19.213</Modified>
+      <Modified>2014-12-02T20:49:52.885</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\bin\Debug\CheckersApp.exe">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\CheckersApp.exe">
       <PackagePath>CheckersApp.exe</PackagePath>
-      <Modified>2014-11-11T22:22:19.036</Modified>
+      <Modified>2014-12-02T20:53:52.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2014-12-02T20:31:29.719</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2014-12-02T20:31:29.719</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2014-12-02T20:31:29.719</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2014-12-02T20:31:29.719</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\Common\ReadMe.txt">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
-      <Modified>2014-11-11T20:29:20.940</Modified>
+      <Modified>2014-12-02T20:31:29.719</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-11-11T22:22:18.857</Modified>
+      <Modified>2014-12-02T20:31:29.750</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-11-11T22:22:18.857</Modified>
+      <Modified>2014-12-02T20:53:52.094</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\cpetty1\documents\visual studio 2013\Projects\CheckersApp\CheckersApp\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-11T22:22:19.088</Modified>
+      <Modified>2014-12-02T20:49:52.366</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
