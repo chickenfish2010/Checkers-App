@@ -46,6 +46,8 @@
             <TextBlock x:Name="pageTitle" Text="Help" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="88,51,0,0" Grid.Row="1" TextWrapping="Wrap" Text="How to Play" FontSize="36" VerticalAlignment="Top" Height="51" Width="222"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88,130,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Players take turns moving one piece per turn. You can only move one piece one space at a time. Get a piece all the way across the board to get a king that can move in any direction. Jump over opponents pieces to remove them from the game. Available jumps must be taken! Take all of your opponent's pieces to win!" FontSize="28" VerticalAlignment="Top" Width="1099"/>
     </Grid>
 </Page>
 
