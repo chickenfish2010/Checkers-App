@@ -1,38 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>SI-20108</Machine>
-    <WindowsUser>acancie1</WindowsUser>
+    <Machine>SI-20109</Machine>
+    <WindowsUser>cpetty1</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>86933ddf-c4a9-4007-a85a-5753bf3c2605</PackageIdentityName>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\CheckersApp.exe">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\CheckersApp.exe">
       <PackagePath>CheckersApp.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\black.png">
       <PackagePath>black.png</PackagePath>
     </AppxPackagedFile>
@@ -40,27 +41,30 @@
       <PackagePath>red.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\Common\ReadMe.txt">
+=======
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\Common\ReadMe.txt">
+>>>>>>> 629ce36b705cdc67f019e4b10c78b400012dfdb0
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\AboutPage.xbf">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\AboutPage.xbf">
       <PackagePath>AboutPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\HelpPage.xbf">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\HelpPage.xbf">
       <PackagePath>HelpPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\OptionsPage.xbf">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\OptionsPage.xbf">
       <PackagePath>OptionsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\SettingsPage.xbf">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\SettingsPage.xbf">
       <PackagePath>SettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

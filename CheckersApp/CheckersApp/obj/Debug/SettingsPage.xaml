@@ -48,10 +48,16 @@
         </Grid>
         <Grid HorizontalAlignment="Left" Height="388" Margin="206,135,0,0" Grid.Row="1" VerticalAlignment="Top" Width="886">
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="23,10,375,103" Width="488" Height="296">
+<<<<<<< HEAD
                 <RadioButton x:ConnectionId='2' x:Name="pvp" Content="Player Vs. Player" GroupName="Group1"  IsChecked="True" Margin="0,20,0,30" FontSize="25" IsDoubleTapEnabled="False"                   />
                 <RadioButton x:ConnectionId='3' x:Name="pvc" Content="Player Vs. AI" GroupName="Group1"  Margin="0,20,0,30" FontSize="25"                  />
+=======
+                <RadioButton x:ConnectionId='0' x:Name="pvp" Content="Player Vs. Player" GroupName="Group1"  IsChecked="True" Margin="0,20,0,30" FontSize="25" IsDoubleTapEnabled="False"                   />
+                <RadioButton x:ConnectionId='0' x:Name="pvc" Content="Player Vs. AI" GroupName="Group1"  Margin="0,20,0,30" FontSize="25"                  />
+                <RadioButton x:ConnectionId='0' x:Name="net" Content="Network" GroupName="Group1"  Margin="0,20,0,30" FontSize="25"                  />
+>>>>>>> 629ce36b705cdc67f019e4b10c78b400012dfdb0
             </StackPanel>
-            <Button x:ConnectionId='1' x:Name="StartGame" Content="Start Game" HorizontalAlignment="Center" VerticalAlignment="Bottom"                           />
+            <Button x:ConnectionId='0' x:Name="StartGame" Content="Start Game" HorizontalAlignment="Center" VerticalAlignment="Bottom"                           />
         </Grid>
     </Grid>
 
