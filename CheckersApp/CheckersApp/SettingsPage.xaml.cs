@@ -118,11 +118,6 @@ namespace CheckersApp
 
         }
 
-        private void net_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void StartGame_Click_1(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));

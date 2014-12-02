@@ -33,6 +33,12 @@
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\black.png">
+      <PackagePath>black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\red.png">
+      <PackagePath>red.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>

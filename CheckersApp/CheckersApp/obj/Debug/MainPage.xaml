@@ -45,47 +45,47 @@
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
         <Grid x:Name="CheckersGrid" HorizontalAlignment="Center" Height="560" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="560" Background="White">
-            <Rectangle x:ConnectionId='0' x:Name="_00" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,0,490,490"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_10" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,70,420,420"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_21" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,140,350,350"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_31" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,210,280,280"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_42" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,280,210,210"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_52" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,350,140,140"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_63" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,420,70,70"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_73" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,490,0,0"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_01" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,0,350,490"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_11" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,70,280,420"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_02" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,0,210,490"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_22" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,140,210,350"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_12" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,70,140,420"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_03" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,0,70,490"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_13" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,70,0,420"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_23" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,140,70,350"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_20" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,140,490,350"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_30" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,210,420,280"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_32" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,210,140,280"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_40" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,280,490,210"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_41" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,280,350,210"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_43" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,280,70,210"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_33" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,210,0,280"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_53" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,350,0,140"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_51" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,350,280,140"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_50" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,350,420,140"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_60" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,420,490,70"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_61" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,420,350,70"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_62" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,420,210,70"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_72" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,490,140,0"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_71" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,490,280,0"                      />
-            <Rectangle x:ConnectionId='0' x:Name="_70" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,490,420,0"                      />
+            <Rectangle x:ConnectionId='1' x:Name="_00" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,0,490,490"                      />
+            <Rectangle x:ConnectionId='2' x:Name="_10" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,70,420,420"                      />
+            <Rectangle x:ConnectionId='3' x:Name="_21" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,140,350,350"                      />
+            <Rectangle x:ConnectionId='4' x:Name="_31" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,210,280,280"                      />
+            <Rectangle x:ConnectionId='5' x:Name="_42" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,280,210,210"                      />
+            <Rectangle x:ConnectionId='6' x:Name="_52" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,350,140,140"                      />
+            <Rectangle x:ConnectionId='7' x:Name="_63" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,420,70,70"                      />
+            <Rectangle x:ConnectionId='8' x:Name="_73" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,490,0,0"                      />
+            <Rectangle x:ConnectionId='9' x:Name="_01" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,0,350,490"                      />
+            <Rectangle x:ConnectionId='10' x:Name="_11" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,70,280,420"                      />
+            <Rectangle x:ConnectionId='11' x:Name="_02" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,0,210,490"                      />
+            <Rectangle x:ConnectionId='12' x:Name="_22" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,140,210,350"                      />
+            <Rectangle x:ConnectionId='13' x:Name="_12" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,70,140,420"                      />
+            <Rectangle x:ConnectionId='14' x:Name="_03" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,0,70,490"                      />
+            <Rectangle x:ConnectionId='15' x:Name="_13" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,70,0,420"                      />
+            <Rectangle x:ConnectionId='16' x:Name="_23" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,140,70,350"                      />
+            <Rectangle x:ConnectionId='17' x:Name="_20" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,140,490,350"                      />
+            <Rectangle x:ConnectionId='18' x:Name="_30" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,210,420,280"                      />
+            <Rectangle x:ConnectionId='19' x:Name="_32" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,210,140,280"                      />
+            <Rectangle x:ConnectionId='20' x:Name="_40" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,280,490,210"                      />
+            <Rectangle x:ConnectionId='21' x:Name="_41" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,280,350,210"                      />
+            <Rectangle x:ConnectionId='22' x:Name="_43" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,280,70,210"                      />
+            <Rectangle x:ConnectionId='23' x:Name="_33" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,210,0,280"                      />
+            <Rectangle x:ConnectionId='24' x:Name="_53" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,350,0,140"                      />
+            <Rectangle x:ConnectionId='25' x:Name="_51" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,350,280,140"                      />
+            <Rectangle x:ConnectionId='26' x:Name="_50" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,350,420,140"                      />
+            <Rectangle x:ConnectionId='27' x:Name="_60" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,420,490,70"                      />
+            <Rectangle x:ConnectionId='28' x:Name="_61" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,420,350,70"                      />
+            <Rectangle x:ConnectionId='29' x:Name="_62" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,420,210,70"                      />
+            <Rectangle x:ConnectionId='30' x:Name="_72" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,490,140,0"                      />
+            <Rectangle x:ConnectionId='31' x:Name="_71" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,490,280,0"                      />
+            <Rectangle x:ConnectionId='32' x:Name="_70" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,490,420,0"                      />
         </Grid>
     </Grid>
     <Page.BottomAppBar>
         <CommandBar>
-            <AppBarButton x:ConnectionId='0' x:Name="NewGameButton" HorizontalAlignment="Left" Content="New Game"                             Icon="Refresh"/>
-            <AppBarButton x:ConnectionId='0' x:Name="SettingsButton" HorizontalAlignment="Left" Content="Settings"                              Icon="Setting"/>
+            <AppBarButton x:ConnectionId='33' x:Name="NewGameButton" HorizontalAlignment="Left" Content="New Game"                             Icon="Refresh"/>
+            <AppBarButton x:ConnectionId='34' x:Name="SettingsButton" HorizontalAlignment="Left" Content="Settings"                              Icon="Setting"/>
             <!--<AppBarButton x:Name="OptionsButton" HorizontalAlignment="Left" Content="Options" Click="OptionsButton_Click"/>-->
-            <AppBarButton x:ConnectionId='0' x:Name="HelpButton" HorizontalAlignment="Left" Content="Help"                          Icon="Help"/>
-            <AppBarButton x:ConnectionId='0' x:Name="AboutButton" HorizontalAlignment="Left" Content="About"                           Icon="SolidStar"/>
+            <AppBarButton x:ConnectionId='35' x:Name="HelpButton" HorizontalAlignment="Left" Content="Help"                          Icon="Help"/>
+            <AppBarButton x:ConnectionId='36' x:Name="AboutButton" HorizontalAlignment="Left" Content="About"                           Icon="SolidStar"/>
         </CommandBar>
     </Page.BottomAppBar>
 </Page>

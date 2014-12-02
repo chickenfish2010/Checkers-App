@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-02T21:27:00.758</Modified>
+      <Modified>2014-12-02T22:29:01.783</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\CheckersApp.exe">
       <PackagePath>CheckersApp.exe</PackagePath>
-      <Modified>2014-12-02T21:27:00.488</Modified>
+      <Modified>2014-12-02T22:30:20.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -45,6 +45,14 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-12-02T21:26:05.569</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\black.png">
+      <PackagePath>black.png</PackagePath>
+      <Modified>2014-12-02T22:17:09.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\red.png">
+      <PackagePath>red.png</PackagePath>
+      <Modified>2014-12-02T22:17:09.444</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
       <Modified>2014-12-02T21:26:05.572</Modified>
@@ -55,15 +63,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\AboutPage.xbf">
       <PackagePath>AboutPage.xbf</PackagePath>
-      <Modified>2014-12-02T21:26:05.615</Modified>
+      <Modified>2014-12-02T22:30:20.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\HelpPage.xbf">
       <PackagePath>HelpPage.xbf</PackagePath>
-      <Modified>2014-12-02T21:26:05.621</Modified>
+      <Modified>2014-12-02T22:30:20.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-12-02T21:26:05.635</Modified>
+      <Modified>2014-12-02T22:30:20.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\OptionsPage.xbf">
       <PackagePath>OptionsPage.xbf</PackagePath>
@@ -71,11 +79,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\SettingsPage.xbf">
       <PackagePath>SettingsPage.xbf</PackagePath>
-      <Modified>2014-12-02T21:26:05.638</Modified>
+      <Modified>2014-12-02T22:30:20.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acancie1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-12-02T21:27:00.582</Modified>
+      <Modified>2014-12-02T22:29:01.595</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
