@@ -39,8 +39,20 @@
     <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\AboutPage.xbf">
+      <PackagePath>AboutPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\HelpPage.xbf">
+      <PackagePath>HelpPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\OptionsPage.xbf">
+      <PackagePath>OptionsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\SettingsPage.xbf">
+      <PackagePath>SettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cpetty1\Documents\Checkers-App\CheckersApp\CheckersApp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

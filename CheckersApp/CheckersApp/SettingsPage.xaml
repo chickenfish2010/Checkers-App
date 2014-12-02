@@ -48,11 +48,11 @@
         </Grid>
         <Grid HorizontalAlignment="Left" Height="388" Margin="206,135,0,0" Grid.Row="1" VerticalAlignment="Top" Width="886">
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="23,10,375,103" Width="488" Height="296">
-                <RadioButton x:Name="pvp" Content="Player Vs. Player" GroupName="Group1" Checked="RadioButton_Checked" IsChecked="True" Margin="0,20,0,30" FontSize="25" IsDoubleTapEnabled="False" />
-                <RadioButton x:Name="pvc" Content="Player Vs. AI" GroupName="Group1" Checked="RadioButton_Checked" Margin="0,20,0,30" FontSize="25"/>
-                <RadioButton x:Name="net" Content="Network" GroupName="Group1" Checked="RadioButton_Checked" Margin="0,20,0,30" FontSize="25"/>
+                <RadioButton x:Name="pvp" Content="Player Vs. Player" GroupName="Group1"  IsChecked="True" Margin="0,20,0,30" FontSize="25" IsDoubleTapEnabled="False" Click="pvp_Click" />
+                <RadioButton x:Name="pvc" Content="Player Vs. AI" GroupName="Group1"  Margin="0,20,0,30" FontSize="25" Click="pvc_Click"/>
+                <RadioButton x:Name="net" Content="Network" GroupName="Group1"  Margin="0,20,0,30" FontSize="25" Click="net_Click"/>
             </StackPanel>
-            <Button x:Name="StartGame" Content="Start Game" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="NewGameButton_Click"/>
+            <Button x:Name="StartGame" Content="Start Game" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="StartGame_Click_1" />
         </Grid>
     </Grid>
 

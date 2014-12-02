@@ -103,19 +103,29 @@ namespace CheckersApp
 
         #endregion
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void StartGame_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void NewGameButton_Click(object sender, RoutedEventArgs e)
+        private void pvp_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void pvc_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void net_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void StartGame_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
         }
     }
 }

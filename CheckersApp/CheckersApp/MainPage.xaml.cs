@@ -542,17 +542,17 @@ namespace CheckersApp
 
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(SettingsPage));
         }
 
         private void HelpButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(HelpPage));
         }
 
         private void AboutButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(About));
         }
     }
 }
