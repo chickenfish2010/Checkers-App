@@ -45,38 +45,38 @@
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
         <Grid x:Name="CheckersGrid" HorizontalAlignment="Center" Height="560" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="560" Background="White">
-            <Rectangle x:Name="Space1" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,0,490,490" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space5" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,70,420,420" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space10" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,140,350,350" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space14" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,210,280,280" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space19" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,280,210,210" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space23" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,350,140,140" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space28" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,420,70,70" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space32" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,490,0,0" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space2" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,0,350,490" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space6" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,70,280,420" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space3" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,0,210,490" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space11" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,140,210,350" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space7" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,70,140,420" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space4" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,0,70,490" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space8" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,70,0,420" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space12" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,140,70,350" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space9" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,140,490,350" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space13" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,210,420,280" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space15" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,210,140,280" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space17" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,280,490,210" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space18" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,280,350,210" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space20" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,280,70,210" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space16" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,210,0,280" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space24" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,350,0,140" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space22" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,350,280,140" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space21" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,350,420,140" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space25" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,420,490,70" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space26" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,420,350,70" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space27" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,420,210,70" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space31" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,490,140,0" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space30" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,490,280,0" Tapped="Space_Tapped"/>
-            <Rectangle x:Name="Space29" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,490,420,0" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_00" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,0,490,490" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_10" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,70,420,420" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_21" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,140,350,350" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_31" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,210,280,280" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_42" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,280,210,210" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_52" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,350,140,140" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_63" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,420,70,70" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_73" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,490,0,0" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_01" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,0,350,490" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_11" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,70,280,420" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_02" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,0,210,490" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_22" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,140,210,350" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_12" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,70,140,420" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_03" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,0,70,490" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_13" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,70,0,420" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_23" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,140,70,350" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_20" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,140,490,350" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_30" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,210,420,280" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_32" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,210,140,280" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_40" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,280,490,210" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_41" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,280,350,210" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_43" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="420,280,70,210" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_33" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,210,0,280" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_53" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="490,350,0,140" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_51" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,350,280,140" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_50" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,350,420,140" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_60" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="0,420,490,70" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_61" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="140,420,350,70" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_62" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="280,420,210,70" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_72" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="350,490,140,0" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_71" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="210,490,280,0" Tapped="Space_Tapped"/>
+            <Rectangle x:Name="_70" Fill="Black" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Center" Width="70" Margin="70,490,420,0" Tapped="Space_Tapped"/>
         </Grid>
     </Grid>
     <Page.BottomAppBar>
