@@ -46,5 +46,12 @@
             <TextBlock x:Name="pageTitle" Text="About" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="62,144,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="399" Width="1230" FontSize="24">
+        	<Run Text="This app is a standard checkers game, which allows the user to play against a computer or another person on the same computer."/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="By Carver Petty and Stu Cancienne"/>
+        </TextBlock>
     </Grid>
 </Page>
